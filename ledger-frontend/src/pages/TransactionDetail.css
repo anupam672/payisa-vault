@@ -1,0 +1,65 @@
+@import "./page-shared.css";
+
+.td-container {
+  max-width: 520px;
+}
+
+.td-back {
+  background: none;
+  border: none;
+  color: var(--slate);
+  font-size: 13px;
+  padding: 0;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.td-back:hover {
+  color: var(--ink);
+}
+
+.td-panel {
+  padding: 32px;
+}
+
+.td-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed var(--line);
+}
+
+.td-amount {
+  font-size: 32px;
+  margin: 4px 0;
+}
+
+.td-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.td-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.td-row-label {
+  font-size: 12.5px;
+  color: var(--slate);
+  flex-shrink: 0;
+}
+
+.td-row-value {
+  font-size: 12.5px;
+  color: var(--ink);
+  text-align: right;
+  word-break: break-all;
+}
