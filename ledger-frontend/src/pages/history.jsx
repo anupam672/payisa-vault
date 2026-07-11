@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { useAuth } from "../context/AuthContext"
 import { transactionApi } from "../api/client"
 import { Panel, Banner, StatusPill, Amount } from "../components/ui"
-import "./History.css"
+import "./history.css"
 
 function formatDateTime(iso) {
   if (!iso) return "—"
