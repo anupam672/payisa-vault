@@ -7,7 +7,7 @@ import Register from "./pages/Register"
 import Accounts from "./pages/Accounts"
 import Send from "./pages/Send"
 import TransactionComplete from "./pages/TransactionComplete"
-import History from "./pages/History"
+import History from "./pages/history";
 import TransactionDetail from "./pages/TransactionDetail"
 
 function RootRedirect() {
