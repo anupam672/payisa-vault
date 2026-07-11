@@ -1,0 +1,15 @@
+@import "./page-shared.css";
+
+.send-container {
+  max-width: 520px;
+}
+
+.send-panel {
+  padding: 32px;
+}
+
+.send-balance-note {
+  font-size: 13px;
+  color: var(--slate);
+  margin: -8px 0 20px;
+}
