@@ -1,0 +1,110 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.shell-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--line-dark);
+  background: var(--ink);
+}
+
+.shell-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--paper);
+  margin-right: auto;
+}
+
+.shell-brand-mark {
+  font-family: var(--font-display);
+  font-size: 24px;
+  color: var(--accent);
+}
+
+.shell-brand-name {
+  font-family: var(--font-display);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.shell-nav {
+  display: flex;
+  gap: 4px;
+}
+
+.shell-nav-link {
+  text-decoration: none;
+  color: var(--slate-dim);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.shell-nav-link:hover {
+  color: var(--paper);
+  background: var(--ink-soft);
+}
+
+.shell-nav-link.is-active {
+  color: var(--accent);
+  background: var(--ink-soft);
+}
+
+.shell-user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.shell-user-name {
+  font-size: 14px;
+  color: var(--slate-dim);
+}
+
+.shell-logout {
+  background: none;
+  border: 1px solid var(--line-dark);
+  color: var(--paper);
+  font-size: 13px;
+  padding: 7px 14px;
+  border-radius: var(--radius);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.shell-logout:hover {
+  border-color: var(--accent);
+  background: var(--ink-soft);
+}
+
+.shell-main {
+  flex: 1;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 48px 32px 80px;
+}
+
+@media (max-width: 640px) {
+  .shell-header {
+    gap: 16px;
+    padding: 16px 20px;
+    flex-wrap: wrap;
+  }
+
+  .shell-main {
+    padding: 32px 16px 60px;
+  }
+
+  .shell-user-name {
+    display: none;
+  }
+}

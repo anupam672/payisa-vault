@@ -1,0 +1,82 @@
+:root {
+  /* Color tokens */
+  --ink: #0F1420;
+  --ink-soft: #1A2233;
+  --paper: #F7F5EF;
+  --paper-dim: #EDEAE1;
+  --line: #DCD8CC;
+  --line-dark: #2A3348;
+  --slate: #5B6B7A;
+  --slate-dim: #8C96A3;
+  --credit: #1C7C54;
+  --credit-bg: #E8F3EC;
+  --debit: #B3432B;
+  --debit-bg: #FBEBE5;
+  --accent: #2A7B73;
+  --accent-dim: #8FC4BD;
+  --white: #FFFFFF;
+
+  /* Type */
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --radius: 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, button {
+  font-size: inherit;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
