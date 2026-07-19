@@ -4,9 +4,6 @@ A full-stack double-entry ledger and payments platform , built like a simplified
 
 **Live demo:** [https://payisa-vault-odxm.vercel.app/](#) &nbsp;·&nbsp; **Backend API:** [https://payisa-vault-backend.onrender.com](#)
 
-> Replace the links above with your actual Render/Vercel URLs before pushing.
-
----
 
 ## Overview
 
