@@ -2,8 +2,7 @@
 
 A full-stack double-entry ledger and payments platform , built like a simplified digital wallet, with an immutable accounting core, atomic fund transfers, JWT authentication, and a branded email notification system.
 
-**Live demo:** [https://payisa-vault-odxm.vercel.app/](#) &nbsp;·&nbsp; **Backend API:** [https://payisa-vault-backend.onrender.com](#)
-
+**Live demo:** [payisa-vault-odxm.vercel.app](https://payisa-vault-odxm.vercel.app/) &nbsp;·&nbsp; **Backend API:** [payisa-vault-backend.onrender.com](https://payisa-vault-backend.onrender.com)
 
 ## Overview
 
